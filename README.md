@@ -1,2 +1,2 @@
 # Siamese-and-Triplet-Network
-Implementation of a Siamese and a Triplet Network in Keras
+Implementation of a Siamese and a Triplet Network in Keras for one-shot-learning. The siamese network is describred in http://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf. Here instead of using the Ominglot dataset as in the paper I use the first 80 classes of Cifar100 for training and the ramaining 20 classes for validation. The goal is simply to get a score better than random guessing.
